@@ -61,6 +61,133 @@ $(document).ready(function(){
 				video1[0].pause();
 				$.featherlight($('.reTryAlert'));
 			}
+		} else if(endTime == 73) {
+			if(btnId == "box1") {
+				$(".correctAnswer").css("display", "block");
+				video1[0].currentTime = endTime + 1;	
+				video1[0].play();
+	
+			} else if(btnId == "box2") {
+				console.log(btnId);
+				video1[0].pause();
+				$.featherlight($('.reTryAlert'));
+	
+			} else {
+				console.log(btnId);
+				video1[0].pause();
+				$.featherlight($('.reTryAlert'));
+			}
+		}else if(endTime == 99) {
+			if(btnId == "box1") {
+				console.log(btnId);
+				video1[0].pause();
+				$.featherlight($('.reTryAlert'));
+	
+			} else if(btnId == "box2") {
+				$(".correctAnswer").css("display", "block");
+				video1[0].currentTime = endTime + 1;	
+				video1[0].play();
+	
+			} else {
+				console.log(btnId);
+				video1[0].pause();
+				$.featherlight($('.reTryAlert'));
+			}
+		}else if(endTime == 124) {
+			if(btnId == "box1") {
+				$(".correctAnswer").css("display", "block");
+				video1[0].currentTime = endTime + 1;	
+				video1[0].play();
+	
+			} else if(btnId == "box2") {
+				console.log(btnId);
+				video1[0].pause();
+				$.featherlight($('.reTryAlert'));
+	
+			} else {
+				console.log(btnId);
+				video1[0].pause();
+				$.featherlight($('.reTryAlert'));
+			}
+		}else if(endTime == 146) {
+			if(btnId == "box1") {
+				console.log(btnId);
+				video1[0].pause();
+				$.featherlight($('.reTryAlert'));
+	
+			} else if(btnId == "box2") {
+				console.log(btnId);
+				video1[0].pause();
+				$.featherlight($('.reTryAlert'));
+			} else {
+				$(".correctAnswer").css("display", "block");
+				video1[0].currentTime = endTime + 1;	
+				video1[0].play();
+			}
+		}else if(endTime == 169) {
+			if(btnId == "box1") {
+				console.log(btnId);
+				video1[0].pause();
+				$.featherlight($('.reTryAlert'));
+	
+			} else if(btnId == "box2") {
+				$(".correctAnswer").css("display", "block");
+				video1[0].currentTime = endTime + 1;	
+				video1[0].play();
+	
+			} else {
+				console.log(btnId);
+				video1[0].pause();
+				$.featherlight($('.reTryAlert'));
+			}
+		}else if(endTime == 189) {
+			if(btnId == "box1") {
+				console.log(btnId);
+				video1[0].pause();
+				$.featherlight($('.reTryAlert'));
+	
+			} else if(btnId == "box2") {
+				console.log(btnId);
+				video1[0].pause();
+				$.featherlight($('.reTryAlert'));
+	
+			} else {
+				$(".correctAnswer").css("display", "block");
+				video1[0].currentTime = endTime + 1;	
+				video1[0].play();
+			}
+		}else if(endTime == 209) {
+			if(btnId == "box1") {
+				console.log(btnId);
+				video1[0].pause();
+				$.featherlight($('.reTryAlert'));
+	
+			} else if(btnId == "box2") {
+				console.log(btnId);
+				video1[0].pause();
+				$.featherlight($('.reTryAlert'));
+	
+			} else {
+				$(".correctAnswer").css("display", "block");
+				video1[0].currentTime = endTime + 1;	
+				video1[0].play();
+			}
+		}else if(endTime == 233) {
+			if(btnId == "box1") {
+				console.log(btnId);
+				video1[0].pause();
+				$.featherlight($('.reTryAlert'));
+	
+			} else if(btnId == "box2") {
+				$(".correctAnswer").css("display", "block");
+				video1[0].currentTime = endTime + 1;	
+				video1[0].play();
+	
+			} else {
+				console.log(btnId);
+				video1[0].pause();
+				$.featherlight($('.reTryAlert'));
+			}
 		}
 	});
 
@@ -81,11 +208,33 @@ $(document).ready(function(){
 		if(endTime == 28) {
 			$.featherlight.close();
 			video1[0].currentTime = 20;
-			// video1[0].play();
 		} else if(endTime == 49) {
 			$.featherlight.close();
 			video1[0].currentTime = 43;
-			// video1[0].play();
+		} else if(endTime == 73) {
+			$.featherlight.close();
+			video1[0].currentTime = 65;
+		} else if(endTime == 99) {
+			$.featherlight.close();
+			video1[0].currentTime = 90;
+		} else if(endTime == 124) {
+			$.featherlight.close();
+			video1[0].currentTime = 116;
+		} else if(endTime == 146) {
+			$.featherlight.close();
+			video1[0].currentTime = 139;
+		} else if(endTime == 169) {
+			$.featherlight.close();
+			video1[0].currentTime = 162;
+		} else if(endTime == 189) {
+			$.featherlight.close();
+			video1[0].currentTime = 184;
+		} else if(endTime == 209) {
+			$.featherlight.close();
+			video1[0].currentTime = 202;
+		}else if(endTime == 233) {
+			$.featherlight.close();
+			video1[0].currentTime = 225;
 		}
 	})
 
@@ -133,6 +282,118 @@ $(document).ready(function(){
 
 			if(btnId == "") {
 				if(currentTime > 48 && currentTime < 50) {
+					video1[0].currentTime = endTime;
+					video1[0].pause();
+				}
+			}
+	
+		} else if(currentTime > 65 && currentTime < 81) {
+
+			startTime = Math.round(65);
+			endTime = Math.round(73);
+
+			$(".boxx").css("display", "block");
+
+			if(btnId == "") {
+				if(currentTime > 71 && currentTime < 73) {
+					video1[0].currentTime = endTime;
+					video1[0].pause();
+				}
+			}
+	
+		} else if(currentTime > 90 && currentTime < 107) {
+
+			startTime = Math.round(90);
+			endTime = Math.round(99);
+
+			$(".boxx").css("display", "block");
+
+			if(btnId == "") {
+				if(currentTime > 98 && currentTime < 100) {
+					video1[0].currentTime = endTime;
+					video1[0].pause();
+				}
+			}
+	
+		} else if(currentTime > 116 && currentTime < 132) {
+
+			startTime = Math.round(116);
+			endTime = Math.round(124);
+
+			$(".boxx").css("display", "block");
+
+			if(btnId == "") {
+				if(currentTime > 123 && currentTime < 125) {
+					video1[0].currentTime = endTime;
+					video1[0].pause();
+				}
+			}
+	
+		} else if(currentTime > 139 && currentTime < 152) {
+
+			startTime = Math.round(139);
+			endTime = Math.round(124);
+
+			$(".boxx").css("display", "block");
+
+			if(btnId == "") {
+				if(currentTime > 123 && currentTime < 125) {
+					video1[0].currentTime = endTime;
+					video1[0].pause();
+				}
+			}
+	
+		} else if(currentTime > 162 && currentTime < 178) {
+
+			startTime = Math.round(162);
+			endTime = Math.round(169);
+
+			$(".boxx").css("display", "block");
+
+			if(btnId == "") {
+				if(currentTime > 168 && currentTime < 170) {
+					video1[0].currentTime = endTime;
+					video1[0].pause();
+				}
+			}
+	
+		} else if(currentTime > 184 && currentTime < 193) {
+
+			startTime = Math.round(184);
+			endTime = Math.round(189);
+
+			$(".boxx").css("display", "block");
+
+			if(btnId == "") {
+				if(currentTime > 188 && currentTime < 190) {
+					video1[0].currentTime = endTime;
+					video1[0].pause();
+				}
+			}
+	
+		} else if(currentTime > 202 && currentTime < 217) {
+
+			startTime = Math.round(202);
+			endTime = Math.round(209);
+
+			$(".boxx").css("display", "block");
+
+			if(btnId == "") {
+				if(currentTime > 208 && currentTime < 210) {
+					video1[0].currentTime = endTime;
+					video1[0].pause();
+				}
+			}
+	
+		} else if(currentTime > 225 && currentTime < 240) {
+
+			startTime = Math.round(225);
+			endTime = Math.round(233);
+
+			$(".boxx").css("display", "block");
+
+			if(btnId == "") {
+				if(currentTime > 232 && currentTime < 234) {
 					video1[0].currentTime = endTime;
 					video1[0].pause();
 				}
