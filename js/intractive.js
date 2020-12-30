@@ -156,6 +156,8 @@ $(document).ready(function(){
 });
 
 
+
+
 function reTry(){
 	video1[0].pause();
 	$.featherlight($('.reTryAlert'))
