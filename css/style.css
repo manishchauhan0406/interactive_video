@@ -1,0 +1,102 @@
+body{
+	background-color: #f0f0f0;
+}
+
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+	font-weight: bold;
+}
+
+p{
+	margin: 0;
+}
+
+video{
+	width: 100%;
+	height: auto;
+}
+
+img{
+	float: left;
+	margin-right: 25px;
+}
+
+.container{
+	margin-top: 20px;
+}
+
+.descArea{
+	background-color: #fff;
+	box-shadow: 0 0 3px #c8c8c8;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+.videoArea{
+	position: relative;
+}
+.boxx { 
+    display: none;
+}
+.correctAnswer { 
+    display: none;
+}
+#correctAnswer{
+    position: absolute;
+    background-color: rgba(255,255,255, 0);
+    width: 100%;
+    height: auto;
+    top: 31%;
+    left: 0;
+    cursor: pointer;
+    z-index: 2;
+    text-align: center;
+}
+.goodChoice, .badChoice{
+    width: 45%;
+}
+
+.box1{
+    position: absolute;
+    background-color: rgba(255,255,255, 0);
+    width: 27%;
+    height: 47%;
+    top: 41.5%;
+    left: 7%;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.box2{
+    position: absolute;
+    background-color: rgba(255,255,255, 0);
+    width: 27%;
+    height: 47%;
+    top: 41.5%;
+    left: 36%;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.box3{
+    position: absolute;
+    background-color: rgba(255,255,255, 0);
+    width: 27%;
+    height: 47%;
+    top: 41.5%;
+    left: 66%;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.lightbox{
+	display: none;
+}
+
+.longBtns{
+	display: block;
+}
+
+button.featherlight-close-icon featherlight-close {
+    display: none;
+}
